@@ -16,5 +16,3 @@ else
         empHours=0
 fi
 empWagesPerDay=$(( $empRatePerHour*$empHours ))
-
-
