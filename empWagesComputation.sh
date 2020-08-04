@@ -4,7 +4,7 @@ isPartTime=1
 isFullTime=2
 ratePerHour=20
 numberOfWorkingDay=20
-maxHour=10
+maxHour=100
 
 totalEmpHour=0
 totalWorkingDays=0
