@@ -5,6 +5,7 @@ IS_FULL_TIME=2
 RATE_PER_HOUR=125
 NUMBER_OF_WORKING_DAY=2
 MAX_HOURS=10
+declare -A dailyWages
 #Variable
 totalEmpHour=0
 totalWorkingDays=0
@@ -40,3 +41,4 @@ dailyWages[totalWorkingDays]="$( getDailyWages $empHour )"
 totalSalary="$( getDailyWages $totalEmpHour)"
 done
 echo ${dailyWages[@]}
+echo ${!dailyWages[@]}
